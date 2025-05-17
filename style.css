@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 25px 25px 25px 25px;
+    font-size: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+article {
+    justify-content: space-around;
+    background-color: white;
+    padding: 40px;
+    width: 400px;
+    margin: 25px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: rgb(60, 58, 170);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    padding: 10px 95px 10px 95px;
+    margin: 70px;
+    font-weight: bold;
+}
+
+.info img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(112, 59, 128);
+    padding: 30px;
+}
+
+footer a {
+    margin-right: 15px;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  flex: 1 1 auto;
+}
